@@ -34,7 +34,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final channel = WebSocketChannel.connect(Uri.parse('ws://10.0.2.2:8081'));
+  final channel =
+      WebSocketChannel.connect(Uri.parse('ws://13.215.167.196:8082'));
 
   StreamController<String> streamController = StreamController.broadcast();
 

@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testwebhook">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="testwebhook"
         android:name="${applicationName}"
